@@ -13,6 +13,11 @@
 		4C521FB41B2DDC06001E9870 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C521FB31B2DDC06001E9870 /* Images.xcassets */; };
 		4C521FB71B2DDC06001E9870 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C521FB51B2DDC06001E9870 /* LaunchScreen.xib */; };
 		4C521FC31B2DDC07001E9870 /* TaskItTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C521FC21B2DDC07001E9870 /* TaskItTests.swift */; };
+		4C521FCF1B2DE2FC001E9870 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C521FCE1B2DE2FC001E9870 /* TaskCell.swift */; };
+		4C521FD11B2DF4CD001E9870 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C521FD01B2DF4CD001E9870 /* TaskModel.swift */; };
+		4C521FD31B2DF749001E9870 /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C521FD21B2DF749001E9870 /* TaskDetailViewController.swift */; };
+		4C521FD51B2DFCFB001E9870 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C521FD41B2DFCFB001E9870 /* Date.swift */; };
+		4C521FD71B2E165B001E9870 /* AddTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C521FD61B2E165B001E9870 /* AddTaskViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +41,11 @@
 		4C521FBC1B2DDC07001E9870 /* TaskItTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskItTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C521FC11B2DDC07001E9870 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4C521FC21B2DDC07001E9870 /* TaskItTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItTests.swift; sourceTree = "<group>"; };
+		4C521FCE1B2DE2FC001E9870 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TaskCell.swift; path = ../TaskCell.swift; sourceTree = "<group>"; };
+		4C521FD01B2DF4CD001E9870 /* TaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
+		4C521FD21B2DF749001E9870 /* TaskDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		4C521FD41B2DFCFB001E9870 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
+		4C521FD61B2E165B001E9870 /* AddTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddTaskViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +89,11 @@
 			children = (
 				4C521FAC1B2DDC06001E9870 /* AppDelegate.swift */,
 				4C521FAE1B2DDC06001E9870 /* ViewController.swift */,
+				4C521FD21B2DF749001E9870 /* TaskDetailViewController.swift */,
+				4C521FD61B2E165B001E9870 /* AddTaskViewController.swift */,
+				4C521FD01B2DF4CD001E9870 /* TaskModel.swift */,
+				4C521FCE1B2DE2FC001E9870 /* TaskCell.swift */,
+				4C521FD41B2DFCFB001E9870 /* Date.swift */,
 				4C521FB01B2DDC06001E9870 /* Main.storyboard */,
 				4C521FB31B2DDC06001E9870 /* Images.xcassets */,
 				4C521FB51B2DDC06001E9870 /* LaunchScreen.xib */,
@@ -213,7 +228,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				4C521FAF1B2DDC06001E9870 /* ViewController.swift in Sources */,
+				4C521FD51B2DFCFB001E9870 /* Date.swift in Sources */,
+				4C521FCF1B2DE2FC001E9870 /* TaskCell.swift in Sources */,
+				4C521FD11B2DF4CD001E9870 /* TaskModel.swift in Sources */,
 				4C521FAD1B2DDC06001E9870 /* AppDelegate.swift in Sources */,
+				4C521FD31B2DF749001E9870 /* TaskDetailViewController.swift in Sources */,
+				4C521FD71B2E165B001E9870 /* AddTaskViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
